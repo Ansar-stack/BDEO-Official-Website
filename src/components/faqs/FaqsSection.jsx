@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
-import Button from '../UI/Button'
 import { FAQs } from '../../Data/Faqs'
 import Faqs from './Faqs'
-import { ChevronRight, Filter, HelpCircle, Mail } from 'lucide-react' 
+import { ChevronRight, Filter, HelpCircle } from 'lucide-react' 
 
 const Buttons = ['All Questions', 'About BDEO', 'Program & Projects', 'Donations', 'Volenteerings'];
 
