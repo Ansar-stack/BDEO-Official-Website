@@ -3,7 +3,7 @@ import React from 'react'
 const OurStory = () => {
     return (
         <div className='flex gap-5 justify-between'>
-            <div>
+            <div className='sm:px-1 md:px-10 text-justify'>
                 <h4 className='font-semibold text-blue-700 mt-4 ps-1'>Our History</h4>
                 <span className='font-bold text-2xl md:text-3xl text-zinc-900'>Our Story</span>
                 <p className="text-gray-800 md:max-w-2xl mt-2">
@@ -15,9 +15,6 @@ const OurStory = () => {
                 <p className="text-gray-800 sm:max-w-2xl mt-2">
                     Our approach is rooted in collaboration with local stakeholders, government bodies, and international partners, ensuring that our initiatives are impactful and aligned with the needs of the people we serve. Through continuous innovation and community-driven strategies, BDEO aims to contribute to a more prosperous and resilient Afghanistan.
                 </p>
-            </div>
-            <div>
-                <img src="" alt="BDEO Team or Project" />
             </div>
         </div>
     )

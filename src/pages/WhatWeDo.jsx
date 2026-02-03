@@ -32,7 +32,7 @@ const WhatWeDo = () => {
       heading={'What We Do'} 
       description={'Transforming lives in Afghanistan through innovative, community-driven solutions in education, livelihoods, and social welfare.'}
     />
-    <div className='my-10 w-full flex justify-center gap-5 flex-wrap'>
+    <div className='w-full flex items-center justify-center gap-5 my-10 flex-wrap'>
       {keyFactors.map((factor, index) => (
         <WhatWeDoCard
           key={index}

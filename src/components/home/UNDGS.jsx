@@ -94,7 +94,7 @@ const UNDGS = () => {
   return (
     <div className='my-10 w-full flex flex-col items-center px-2'>
       <h4 className='text-lg sm:text-2xl font-semibold text-black'>Alignment with UN SDGs</h4>
-      <p className="text-gray-600 text-sm text-center">We are proud to contribute to the United Nations Sustainable Development Goals.</p>
+      <p className="text-gray-600 text-sm text-center px-2">We are proud to contribute to the United Nations Sustainable Development Goals.</p>
       <div className='border border-gray-200 p-2 w-[96%] md:w-1/2 mt-2 rounded-md shadow-sm'>
       <div className='mt-5 flex justify-center gap-2 items-center '>
         {/* Return only first 8 one */}

@@ -15,7 +15,7 @@ const CTASection = () => {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <button 
-          onClick={() => navigate('/contact')}
+          onClick={() => navigate('/contact-us')}
           className="bg-white text-blue-600 font-semibold px-8 py-3 rounded hover:bg-gray-50 transition-colors">
             Contact Us
           </button>

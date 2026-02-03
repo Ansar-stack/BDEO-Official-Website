@@ -5,7 +5,7 @@ const OurCoreValues = () => {
     return (
         <div className='w-full mt-10 py-10 flex flex-col items-center gap-1'>
             <h5 className='font-semibold text-xl'>Our Core Values</h5>
-            <p className="text-zinc-900 max-w-lg text-center">
+            <p className="text-zinc-900 px-3 max-w-lg text-center">
                 This principles guide every decision we make and every project we undertake.
             </p>
             <div className='w-full flex gap-5 flex-wrap justify-center mt-2'>

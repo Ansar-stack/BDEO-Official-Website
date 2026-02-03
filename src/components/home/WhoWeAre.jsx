@@ -11,7 +11,7 @@ const WhoWeAre = () => {
     >
         <h2 className='font-bold text-sm text-blue-600 '>WHO WE ARE</h2>
         <h3 className='font-bold text-2xl md:text-3xl tracking-tight'>Building a Better Future Together</h3>
-        <p>
+        <p className='text-justify'>
           Boost Development and Educational Orginization (BDEO) is a non-profit committed to upliftment. We don't 
             just provide aid, we partner with communities to build resilience, knowledge, and self-sufficiency for generation to come.
         </p>

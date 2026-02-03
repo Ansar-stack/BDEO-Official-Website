@@ -35,7 +35,7 @@ const Footer = () => {
           
           {/* Logo */}
           <div>
-            <div className="w-19 h-17 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-xl mb-4">
+            <div className="w-22 h-25 p-5 bg-blue-600 rounded-lg self-start flex items-center justify-center place-self-start text-white font-bold text-xl mb-4">
               B.D.E.O
             </div>
             <p className="text-sm">
