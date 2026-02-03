@@ -14,13 +14,13 @@ const FaqsSection = () => {
             onClick={() => {
               setQuestion(elem);
             }}
-            text={elem} classes={`faq-btn ${question == elem ? `bg-blue-600 text-white` : `text-gray-800  hover:bg-gray-50`}`} key={index} />
+            text={elem} classes={`faq-btn ${question === elem ? `bg-blue-600 text-white` : `text-gray-800  hover:bg-gray-50`}`} key={index} />
         ))}
       </div>
       {/* Faqs */}
       <div className='flex flex-col items-center'>
         {FAQs.map((elem, index) => {
-          return question == "All Questions" ? <Faqs key={index} question={elem.question} answer={elem.answer} /> : elem.category == question ? <Faqs key={index} question={elem.question} answer={elem.answer} /> : <></>
+          return question === "All Questions" ? <Faqs key={index} question={elem.question} answer={elem.answer} /> : elem.category === question ? <Faqs key={index} question={elem.question} answer={elem.answer} /> : <></>
         })}
       </div>
     </div>

@@ -40,7 +40,6 @@ const Counter = ({ end, suffix = "" }) => {
 };
 
 const Hero = () => {
-  const navigate = useNavigate();
   return (
     <section className="w-full">
       {/* HERO IMAGE SECTION */}
@@ -67,7 +66,7 @@ const Hero = () => {
             <p className="mt-1 max-w-lg text-base md:text-lg text-gray-200">
               Empowering vulnerable communities through education, sustainable development, and economic resilience since 2023.
             </p>
-            <Button onClick={() => navigate('/about-us')} text={'Discover More'} classes={'primary-btn mt-3'} />
+            <Button  text={'Discover More'} classes={'primary-btn mt-3'} />
           </div>
         </div>
       </div>

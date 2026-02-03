@@ -43,13 +43,11 @@ const TopBar = () => {
             href="https://www.facebook.com/"
             className="hover:text-blue-500 transition"
             aria-label="Facebook"
-            target="_blank"
           >
             <FaFacebookF />
           </a>
           <a
             href="https://twitter.com/"
-            target="_blank"
             className="hover:text-sky-400 transition"
             aria-label="Twitter"
           >
@@ -57,7 +55,6 @@ const TopBar = () => {
           </a>
           <a
             href="https://www.linkedin.com/"
-            target="_blank"
             className="hover:text-blue-600 transition"
             aria-label="LinkedIn"
           >
