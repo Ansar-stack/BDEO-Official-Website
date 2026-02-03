@@ -1,7 +1,6 @@
 import React from 'react'
 import AboutCard from './AboutCard'
 import CorePillar from './CorePillar'
-import { FaEye } from 'react-icons/fa'
 import { HiOutlineEye, HiOutlineFlag } from 'react-icons/hi'
 
 const VisionMission = () => {

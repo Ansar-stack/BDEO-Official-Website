@@ -1,6 +1,5 @@
 import React from 'react'
 import Button from '../UI/Button'
-import {useNavigate} from 'react-router-dom'
 const LoveToHear = () => {
   return (
     <div className='w-full py-10 flex flex-col items-center'>

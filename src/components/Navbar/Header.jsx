@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import Button from '../UI/Button';
 import TopBar from './Topbar';
 import Logo from '../../assets/logo.jpg'
@@ -29,7 +28,7 @@ const Header = () => {
       <nav className="h-14 md:h-17.5 relative w-full px-6 md:px-5 lg:px-24 xl:px-32 flex items-center justify-between z-20 bg-white shadow-[0px_4px_25px_0px_#0000000D] transition-all">
         {/* Logo Section */}
         <Link to="/" className="text-blue-600 flex items-center">
-          <img src={Logo} className='w-14 h-14'/>
+          <img alt='' src={Logo} className='w-14 h-14'/>
           <span className="ml-2 font-bold text-xl">B.D.E.O</span>
         </Link>
 

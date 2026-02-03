@@ -3,11 +3,8 @@ import {
   FaEnvelope,
   FaChevronRight,
   FaGraduationCap,
-  FaUserGraduate,
   FaLeaf,
-  FaUsers,
   FaMapMarkerAlt,
-  FaGlobe,
   FaHeartbeat,
   FaHandsHelping,
 } from "react-icons/fa";
