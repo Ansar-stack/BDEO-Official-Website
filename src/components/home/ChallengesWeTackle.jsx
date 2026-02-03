@@ -12,7 +12,7 @@ const challenges = [
 
 const ChallengesWeTackle = () => {
   return (
-    <div className='w-full flex flex-col gap-2 items-center py-10 justify-center px-5'>
+    <div className='w-full flex flex-col gap-2.5 items-center py-10 justify-center px-5'>
       <h3 className='text-lg sm:text-2xl font-semibold text-black'>Challenges We Tackle</h3>
       <div className='w-full flex justify-center  flex-wrap gap-5 mt-3'>
         {challenges.map((challenge, index)=>(
