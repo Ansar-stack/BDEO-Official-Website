@@ -1,6 +1,6 @@
 import React from 'react'
 import UNDGSCard from './UNDGSCard'
-import { FaTransgender, FaIndustry, FaLeaf, FaBook, FaCoins, FaVenus, FaHeartbeat, FaWater, FaCircle, FaCity, FaRecycle, FaFish, FaTree } from 'react-icons/fa'
+import {  FaIndustry, FaBook, FaCoins, FaVenus, FaHeartbeat, FaWater, FaCity, FaRecycle, FaFish, FaTree } from 'react-icons/fa'
 import Marquee from "react-fast-marquee";
 import { GiForkKnifeSpoon } from 'react-icons/gi';
 import { HiOutlineAdjustments, HiOutlineBookOpen, HiOutlineBriefcase, HiOutlineLightningBolt, HiOutlineSun } from 'react-icons/hi';

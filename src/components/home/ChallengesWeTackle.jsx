@@ -1,7 +1,7 @@
 import React from 'react'
 import ChallengesCard from './ChallengesCard'
 import {FaExclamationTriangle, FaHeartbeat} from 'react-icons/fa'
-import {HiOutlineSun, HiOutlineTrendingDown} from 'react-icons/hi'
+import {HiOutlineSun} from 'react-icons/hi'
 import {GiBrickWall} from 'react-icons/gi'
 const challenges = [
   {title: "Socail Enquaility", description:"Bridging the gap for marginilized groups.", icon: <FaExclamationTriangle size={20} className='text-amber-600' />},

@@ -20,8 +20,8 @@ const WhoWeAre = () => {
       {/* Image */}
       <div className='w-1/2  hidden md:flex' data-aos="fade-left"
     data-aos-duration="800">
-        <img src={farmerImage} alt="plant image" className='w-full  rounded-xl inset-0  object-cover' />
-      </div>
+        <img src={farmerImage} alt="plant" className='w-full  rounded-xl inset-0  object-cover' />
+      </div>  
     </div>
   )
 }
