@@ -22,7 +22,7 @@ const quickLinks = [
 const whatWeDo = [
   { label: "Education", icon: FaGraduationCap },
   { label: "Health", icon: FaHeartbeat },
-  { label: "Aggreculture", icon: FaLeaf },
+  { label: "Agreculture", icon: FaLeaf },
   { label: "Relief", icon: FaHandsHelping },
 ];
 
