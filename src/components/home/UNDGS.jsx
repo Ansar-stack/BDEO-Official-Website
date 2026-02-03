@@ -100,7 +100,7 @@ const UNDGS = () => {
         {/* Return only first 8 one */}
         <Marquee gradient={false}
         pauseOnHover={true}
-        speed={20} className=''>
+        speed={40} className=''>
           {undgs.slice(0, 8).map((goal, index) => (
             <UNDGSCard
               key={index}
