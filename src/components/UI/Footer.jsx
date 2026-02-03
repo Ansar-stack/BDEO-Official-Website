@@ -22,7 +22,7 @@ const quickLinks = [
 const whatWeDo = [
   { label: "Education", icon: FaGraduationCap },
   { label: "Health", icon: FaHeartbeat },
-  { label: "Sustainability", icon: FaLeaf },
+  { label: "Aggreculture", icon: FaLeaf },
   { label: "Relief", icon: FaHandsHelping },
 ];
 
@@ -83,7 +83,7 @@ const Footer = () => {
             <h3 className="text-white font-semibold mb-4">Contact Us</h3>
             <div className="flex items-start gap-3 text-sm mb-3">
               <FaMapMarkerAlt className="mt-1 text-blue-500" />
-              <span>District 6th, Dand Chowk, Kandahar, Afghanistan</span>
+              <span>District 9th, Kandahar, Afghanistan</span>
             </div>
             <div className="flex items-center gap-3 text-sm mb-3">
               <FaPhoneAlt className="text-blue-500" />
