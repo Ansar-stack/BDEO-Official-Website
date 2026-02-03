@@ -6,8 +6,35 @@
     @apply rounded-md cursor-pointer bg-blue-700 px-5 py-2 text-white font-medium hover:bg-blue-800 transition 
 }
 .transparent-btn{
-    @apply rounded-md cursor-pointer border border-gray-300 bg-transparent text-gray-800 font-semibold px-5 py-1.5 transition hover:bg-gray-50
+    @apply rounded-md cursor-pointer border border-blue-300 bg-transparent text-gray-800 font-semibold px-5 py-1.5 transition hover:bg-gray-50
 }
 .faq-btn{
     @apply rounded-full cursor-pointer border border-gray-300   px-4 py-1 transition
+}
+.primary-btn {
+    @apply relative rounded-md cursor-pointer bg-blue-700 px-5 py-2 text-white font-medium 
+           hover:bg-blue-800 overflow-hidden transition-colors duration-200;
+}
+
+.primary-btn::after {
+    content: '';
+    @apply absolute top-1/2 left-1/2 w-0 h-0 rounded-full bg-white/30;
+    transform: translate(-50%, -50%);
+    transition: width 0.4s, height 0.4s, opacity 0.4s;
+    opacity: 0;
+}
+
+.primary-btn:active::after {
+    @apply w-64 h-64;
+    opacity: 1;
+    transition: 0s;
+}
+
+@keyframes float {
+  0%, 100% { 
+    transform: translateY(0) translateX(0); 
+  }
+  50% { 
+    transform: translateY(-10px) translateX(5px); 
+  }
 }

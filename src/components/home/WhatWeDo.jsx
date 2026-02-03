@@ -6,17 +6,20 @@ const whatWeDoData = [
   {
     title: "Education & Capacity Building",
     description: "Providing high-quality educational programs and vocational training to equip youth and women with essential skills.",
-    icon: <FaGraduationCap color='blue' size={20}/>
+    icon: <FaGraduationCap color='blue' size={20}/>,
+    color: "blue",
   },
   {
     title: "Sustainable Development",
     description: "Promoting initiatives that enhance livelihoods, improve services, and foster economic resilience for communities.",
-    icon: <FaLeaf color='green' size={20}/>
+    icon: <FaLeaf color='green' size={20}/>,
+    color: "green",
   },
   {
     title: "Community Engagement",
     description: "Collaborating with local stakeholders and partners to build inclusive, community-driven solutions together.",
-    icon: <FaUsers color='black' size={20}/>
+    icon: <FaUsers color='black' size={20}/>,
+    color: "black",
   }
 ];
 
@@ -34,6 +37,7 @@ const WhatWeDo = () => {
             icon={item.icon}
             title={item.title}
             description={item.description}
+            color={item.color}
           />
         ))}
       </div>

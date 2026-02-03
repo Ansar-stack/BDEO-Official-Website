@@ -12,6 +12,7 @@
     "autoprefixer": "^10.4.0",
     "core-js": "^3.48.0",
     "emailjs": "^5.0.0",
+    "lucide-react": "^0.563.0",
     "postcss": "^8.4.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
