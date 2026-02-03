@@ -1,6 +1,7 @@
 import React from 'react'
 import TeamCard from './TeamCard';
-import DirectorImage from '../../assets/Director Image.png'
+// Import the director image from assets folder 
+import DirectorImage from '../../assets/DirectorImage.png';
 const LeaderShipSection = () => {
     const leaders = [
     {

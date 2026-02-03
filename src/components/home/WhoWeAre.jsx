@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../UI/Button'
-import farmerImage from '../../assets/Farmer Image.jpg'
+import farmerImage from '../../assets/FarmerImage.jpg'
 const WhoWeAre = () => {
   return (
     <div className='w-full  md:h-[60vh] flex gap-5 px-2 sm:px-10 md:px-20'>

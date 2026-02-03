@@ -1,8 +1,9 @@
 import React from 'react'
 import TeamCard from './TeamCard';
-import Sir from '../../assets/Sir-Image.png'
+import Sir from '../../assets/SirImage.png'
 import TeamP1 from '../../assets/Team.png'
 import Team2 from '../../assets/team2.jpg'
+import HR from '../../assets/HR.jpg'
 const TeamMemberShip = () => {
  const members = [
     {
@@ -18,10 +19,16 @@ const TeamMemberShip = () => {
       description: 'Bismillah manages our financial resources, ensuring transparency and sustainability in all our operations.'
     },
     {
-      name: 'Ahmmad Shah',
+      name: 'Issa Muhammad',
       img: Team2,
+      role: 'Project Manager',
+      description: 'Issa Muhhammad oversees project implementation, coordinating efforts to achieve our goals effectively.'
+    },
+     {
+      name: 'Mirwais Ahmad',
+      img: HR,
       role: 'HR Manager',
-      description: 'Ahmmad manages our human resources, ensuring a supportive and inclusive workplace for all team members.'
+      description: 'Mirwais manages our human resources, ensuring a supportive and inclusive workplace for all team members.'
     }
   ];
 

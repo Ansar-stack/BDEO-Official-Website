@@ -5,7 +5,7 @@ const TeamCard = ({ name, role, description, img }) => {
     <div 
      data-aos="fade-up"
     data-aos-duration="800"
-    className="flex flex-col items-center w-[19rem] h-[400px] shadow-lg cursor-pointer hover:-translate-y-1 hover:transition-transform hover:duration-300   rounded-md py-1.5 border border-gray-200">
+    className="flex flex-col bg-white items-center w-[19rem] h-[400px] shadow-lg cursor-pointer hover:-translate-y-1 hover:transition-transform hover:duration-300   rounded-md py-1.5 border border-gray-200">
       {/* Image placeholder */}
       <img src={img} alt='' className='w-full h-[250px] object-cover`' />
       <h3 className="text-lg font-bold text-gray-900 mb-0.5">{name}</h3>
