@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
 import heroImage from "../../assets/Front Image.png";
 import Button from "../UI/Button";
 
@@ -12,7 +11,6 @@ const stats = [
 
 const Counter = ({ end, suffix = "" }) => {
   const [count, setCount] = useState(0);
-  const navigate = useNavigate();
   useEffect(() => {
     let start = 0;
     const duration = 1500;
