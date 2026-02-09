@@ -12,7 +12,7 @@ const Faqs = ({ question, answer }) => {
           onClick={() => setIsOpen(!isOpen)}
           className="w-full flex items-center justify-between text-left px-4 py-1 sm:px-5 focus:outline-none"
         >
-          <h3 className="text-sm sm:text-base font-medium text-gray-900">
+          <h3 className="text-sm sm:text-base font-medium faq-question text-gray-900">
             {question}
           </h3>
 
@@ -30,7 +30,7 @@ const Faqs = ({ question, answer }) => {
             isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
           }`}
         >
-          <div className="overflow-hidden px-4 sm:px-5 pb-3 text-sm sm:text-base text-gray-600">
+          <div className="overflow-hidden faq-answer px-4 sm:px-5 pb-3 text-sm sm:text-base text-gray-600">
             {answer}
           </div>
         </div>

@@ -80,7 +80,7 @@ const Header = () => {
                     <li key={item.name}>
                       <Link
                         to={item.path}
-                        className={`px-4 py-2.5 text-sm font-medium rounded-md transition-colors duration-200 ${
+                        className={`px-4 nav-link py-2.5 text-sm font-medium rounded-md transition-colors duration-200 ${
                           isActive
                             ? 'text-blue-700 bg-blue-50'
                             : 'text-gray-700 hover:text-blue-600 hover:bg-gray-50'
@@ -100,7 +100,7 @@ const Header = () => {
               <Button
                 text={
                   <div className="flex items-center gap-2">
-                    <Heart className="w-4 h-4" />
+                    <Heart className="w-4 h-4 animate-bounce`" />
                     <span>Support Us</span>
                   </div>
                 }
@@ -116,7 +116,7 @@ const Header = () => {
                 onClick={() => navigate('/support-us')}
                 className="mr-3 px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-md hover:bg-blue-700 transition-colors duration-200 flex items-center gap-2"
               >
-                <Heart className="w-4 h-4" />
+                <Heart className="w-4 h-4 animate-bounce" />
                 <span className="hidden sm:inline">Support</span>
               </button>
 
@@ -188,7 +188,7 @@ const Header = () => {
                     <li key={item.name}>
                       <Link
                         to={item.path}
-                        className={`block px-4 py-3 rounded-md text-base font-medium transition-colors duration-200 ${
+                        className={`block nav-link px-4 py-3 rounded-md text-base font-medium transition-colors duration-200 ${
                           isActive
                             ? 'bg-blue-50 text-blue-700'
                             : 'text-gray-700 hover:bg-gray-50'
@@ -210,7 +210,7 @@ const Header = () => {
                 <Button
                   text={
                     <div className="flex items-center justify-center gap-2">
-                      <Heart className="w-5 h-5" />
+                      <Heart className="w-5 h-5 animate-bounce" />
                       <span className="font-semibold">Support Our Mission</span>
                     </div>
                   }
