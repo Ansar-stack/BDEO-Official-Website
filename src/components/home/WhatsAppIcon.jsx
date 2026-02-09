@@ -11,7 +11,7 @@ const WhatsAppIcon = () => {
       className='cursor-pointer'
     >
       <div
-        className="fixed right-10 bottom-10 p-2  rounded-xl animate-bounce bg-[#57f06d] flex items-center justify-center"
+        className="fixed right-2 md:right-10 top-[70%] p-2 hover:animate-none rounded-xl animate-bounce bg-[#57f06d] flex items-center justify-center"
       >
         <FaWhatsapp size={45} color="white" />
       </div>

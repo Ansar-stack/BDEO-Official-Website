@@ -59,7 +59,7 @@ const Hero = () => {
           data-aos-duration="800"
           className="relative z-10 flex h-full items-center justify-center">
           <div className="max-w-7xl px-6 md:px-12 text-white">
-            <h1 className="text-3xl hero-title lg:text-[4vw] font-bold leading-tight tracking-tight">
+            <h1 className="text-3xl  lg:text-[4vw] font-bold leading-tight tracking-tight hero-title">
               Building a Prosperous & <br />
               Self-Reliant Southern <br />
               Afghanistan Together
